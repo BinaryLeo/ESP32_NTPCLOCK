@@ -12,6 +12,9 @@ the time to the ESP32 rtc (real time clock), and displays the date and time on t
 Upon startup, the code initializes the serial port, wifi, graphics and udp port.  The serial port is used only during initialization to display when the wifi is connected and when the ntp time has been received from the ntp server.  
 Wifi is used to communicate with the ntp server.  The graphics is used to display the initialization and operational displays on the built in OLED.  Finally, the udp port receives the ntp time from the ntp server.
 
+![heltec2](https://user-images.githubusercontent.com/72607039/137674802-38433452-5c77-4d39-966e-9c793261293f.jpg)
+
+
 The main loop performs two major functions; obtains the time from the ntp server and to update the oled.
 In this example, the time is obtained from the ntp server only once, and upon receipt, is adjusted for time zone then written into the ESP32 rtc (real time clock).
 The OLED is updated once per pass, and there is a 200ms delay in the main loop so the OLED is updated 5 times a second.
