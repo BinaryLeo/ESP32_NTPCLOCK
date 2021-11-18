@@ -185,7 +185,6 @@ void loop()
     }
   }
   // Update OLED.
-
   if (bTimeReceived)
   {
     // Ntp time has been received, ajusted and written to the ESP32 rtc, so obtain the time from the ESP32 rtc.

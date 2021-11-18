@@ -28,8 +28,8 @@ Before compiling and downloading the code, adjust the following settings:
 ![heltec](https://user-images.githubusercontent.com/72607039/137672252-1cd1f805-63fc-47e1-98c5-f1d9968d2539.jpg)
 
 
-Setup Your board:
+Setup Your Heltec board:
 https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html
 
-U8g2:
+U8g2 library:
 https://github.com/olikraus/u8g2/wiki
